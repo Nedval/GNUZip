@@ -12,6 +12,7 @@
 		1D9D7EE91D19067200AB8DD6 /* GNUZipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D7EE81D19067200AB8DD6 /* GNUZipTests.swift */; };
 		1D9D7EF51D1906AC00AB8DD6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9D7EF41D1906AC00AB8DD6 /* libz.tbd */; };
 		1D9D7EF91D19079A00AB8DD6 /* Zip.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D7EF81D19079A00AB8DD6 /* Zip.mm */; };
+		1D9D7F1D1D1920EA00AB8DD6 /* Zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D9D7EF71D19077400AB8DD6 /* Zip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D9D7F1D1D1920EA00AB8DD6 /* Zip.h in Headers */,
 				1D9D7EDD1D19067200AB8DD6 /* GNUZip.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -324,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
